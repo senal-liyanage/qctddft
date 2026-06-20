@@ -7,8 +7,8 @@ authors:
   - family-names: "Liyanage"
     given-names: "Senal"
 license: MIT
-repository-code: "https://github.com/fr-0zt/qctddft"
-url: "https://github.com/fr-0zt/qctddft"
+repository-code: "https://github.com/senal-liyanage/qctddft"
+url: "https://github.com/senal-liyanage/qctddft"
 abstract: >-
   qctddft is a command-line toolkit for post-processing Q-Chem TDDFT calculations,
   including extraction of excitation data, spectrum generation, spectral-region

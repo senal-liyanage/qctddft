@@ -74,8 +74,8 @@ qctddft = "qctddft.cli:run"
 # Project URLs (Homepage, Repository, etc.)
 # ==============================================================================
 [project.urls]
-Homepage = "https://github.com/fr-0zt/qctddft"
-Repository = "https://github.com/fr-0zt/qctddft"
+Homepage = "https://github.com/senal-liyanage/qctddft"
+Repository = "https://github.com/senal-liyanage/qctddft"
 
 # ==============================================================================
 # Tool-Specific Configurations

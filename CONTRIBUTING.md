@@ -12,7 +12,7 @@ Thanks for your interest in improving `qctddft`.
 Clone the repository and install the package with development dependencies:
 
 ```bash
-git clone https://github.com/fr-0zt/qctddft.git
+git clone https://github.com/senal-liyanage/qctddft.git
 cd qctddft
 pip install .[dev]
 ```
