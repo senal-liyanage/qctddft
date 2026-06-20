@@ -23,7 +23,7 @@
 Clone the repository and install it locally:
 
 ```bash
-git clone https://github.com/fr-0zt/qctddft.git
+git clone https://github.com/senal-liyanage/qctddft.git
 cd qctddft
 pip install .
 ```
