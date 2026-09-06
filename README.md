@@ -1,5 +1,7 @@
 # qctddft
 
+[![CI](https://github.com/senal-liyanage/qctddft/actions/workflows/ci.yml/badge.svg)](https://github.com/senal-liyanage/qctddft/actions/workflows/ci.yml)
+
 `qctddft` is a command-line toolkit for post-processing Time-Dependent Density Functional Theory (TDDFT) calculations from Q-Chem. It is designed to take a workflow from raw output files to interpretable spectral regions and representative geometries, helping connect computed excited-state features to underlying molecular structure.
 
 ## What it does
@@ -90,6 +92,15 @@ qctddft cluster assignment_results_state_assignment.csv "path/to/pdbs/*.pdb" --r
 
 ## Scope and intended use
 `qctddft` is intended for research workflows that analyze ensembles of TDDFT calculations and relate spectral behavior to structural heterogeneity. It is especially useful when many snapshots or configurations must be processed consistently through a single command-line pipeline.
+
+## Development and reproducibility
+The project is installable as a Python package and exposes its workflow through a command-line interface. Automated tests are run with `pytest`, and GitHub Actions executes the test suite on repository changes. This helps keep the documented workflow and scientific analysis code reproducible as the toolkit evolves.
+
+Run the tests locally with:
+
+```bash
+pytest -q
+```
 
 ## Citation
 If this repository contributes to published work, please cite the repository and the version used. A formal software citation can be added here in the future if the package is archived or associated with a manuscript.
